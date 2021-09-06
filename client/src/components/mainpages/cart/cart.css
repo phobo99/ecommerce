@@ -1,0 +1,58 @@
+.cart {
+  position: relative;
+  border: 1px solid #ccc;
+  transform: scaleY(0.98);
+}
+.amount span {
+  color: crimson;
+  padding: 0 20px;
+}
+.amount button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #777;
+}
+.delete {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: crimson;
+  font-weight: 900;
+  cursor: pointer;
+}
+.total {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.total h3 {
+  color: crimson;
+}
+.increment-btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.decrement-btn {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.content {
+  font-size: 75%;
+}
